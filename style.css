@@ -1,0 +1,15 @@
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 1px solid black ;
+    text-align: center;
+    padding: 8px;
+
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+    table-layout: fixed;
+}
+table{
+    width: 100%;
+    
+}
